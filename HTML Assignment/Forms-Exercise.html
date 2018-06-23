@@ -27,14 +27,14 @@
 			</div>
 			
 			<div>
-				<label>Email:</label>
-				<input type="email" placeholder="your email" required>
-				<label>Password:</label>
-				<input type="password" placeholder="your password" minlength="5" maxlength="10" required>
+				<label for="email">Email:
+				<input type="email" id="email" placeholder="your email" required></label>
+				<label for="pw">Password:
+				<input type="password" id="pw" placeholder="your password" minlength="5" maxlength="10" required></label>
 			</div>
 			
 			<div>
-				<label>Birthday: </label>
+				<label>Birthday: 
 				<select name="month">
 					<option value="jan">January</option>
 					<option value="feb">Febuary</option>
@@ -153,11 +153,12 @@
 					<option value="1950">1950</option>
 					<option value="none" selected>Year</option>
 				</select>
+				</label>
 			</div>
 			
 			<div>
-				<label>I agree the terms and conditions </label>
-				<input type="checkbox">
+				<label for="agree">I agree the terms and conditions </label>
+				<input type="checkbox" id="agree">
 			</div>
 			
 			<input type="submit">
