@@ -1,12 +1,31 @@
+body{
+	background: gray;
+}
+
 h1{
 	color: red;
+	
+	background: url(https://previews.123rf.com/images/prapann/prapann1607/prapann160700004/59445035-plywood-texture-with-pattern-natural-wood-grain-for-background-.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 h3{
 	color: rgb(0, 0, 255);
+	
+	border-color: black;
+	border-width: 5px;
+	border-style: solid;
+	
+	/*same result*/
+	/* border: 5px black solid*/
 }
 
 li{
 	/*darker yellow*/
 	color: #FFE031;
+}
+
+ul{
+	background: rgba(255, 0, 0, 0.3);
 }
