@@ -44,3 +44,27 @@ ul{
 	text-decoration: line-through;
 	color: black;
 }
+
+/*Descendant selector*/
+li a{
+	color: red;
+}
+
+/*Adjacent selector*/
+h4 + ul{
+	border: 4px solid red;
+}
+
+/*Attribute selector*/
+a[href="http://www.google.com"]{
+	border: 4px solid blue;
+}
+
+/*nth-0f-type*/
+li:nth-of-type(1){
+	background: purple;
+}
+
+
+
+
