@@ -29,5 +29,6 @@ h2{
 }
 
 hr{
-	border-color: #E9E5E5;
+	border-top: 1px solid #E9E5E5;
+	border-bottom: 1px solid #E9E5E5;
 }
